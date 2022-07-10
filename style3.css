@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+}
+
+.header{
+	text-transform: uppercase;
+	padding-top: 10px;
+	float: left;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.title{
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-left: 300px;
+	font-size: 20px;
+	font-family: 900;
+}
+
+
+TABLE {
+	margin-top: 10px;
+	margin-left: 20px;
+	/*padding: 50px;*/
+    width: 50%; /* Ширина таблицы */
+}
+
+TD {
+	margin: 3px;
+	border-radius: 5px;
+	border-spacing: 5px;
+    border: 1px solid #333; /* Граница вокруг ячеек */
+    padding: 10px; /* Поля в ячейках */ 
+}
+
+.list{
+	margin-top: 10px;
+	display: flex;
+}

@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+}
+
+.header{
+	text-transform: uppercase;
+	padding-top: 10px;
+	float: left;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.title{
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-left: 250px;
+	font-size: 20px;
+	font-family: 900;
+}
+
+
+figure {
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: top;
+   }
+
+figcaption {
+	margin-top: 10px;
+    text-align: center;
+   }
+
+.img {
+	border-radius: 30px;
+}
+
+.list{
+	margin-top: 10px;
+	display: flex;
+}
