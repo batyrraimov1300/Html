@@ -1,15 +1,13 @@
-@font-face{
-	font-family: sans-serif;
-	src:"";
-	font-style: italic;
-	font-weight: Bolder;
+body{
+	font-family: "Times New Roman", Times, serif;
+	font-style: Bold;
 }
 a {
 	text-decoration: none;
   }
 
 .header{
-	font-family: sans-serif;
+	font-family: "Alumni-Sans-Bold";
 	text-transform: uppercase;
 	padding-top: 10px;
 	float: left;
