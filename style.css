@@ -6,40 +6,47 @@ a {
 	text-decoration: none;
   }
 
+header{
+	font-family: monospace;
+	max-height: 100px;
+	padding: 30px;
+	background-color: green;
+}
+
 .header{
-	font-family: "Alumni-Sans-Bold";
-	text-transform: uppercase;
-	padding-top: 10px;
-	float: left;
 	padding-left: 20px;
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
 	font-size: 20px;
 }
 
 
 .list{
-	margin-top: 10px;
+	padding-left: 20px;
 	display: flex;
 }
 
 
 .textInput{
-	margin-left: 100px;
+	text-transform: uppercase;
+	font-style: bold;
+	margin-right: 950px;
+	font-family: monospace;
 }
 
 .title_form{
+	font-family: monospace;
 	font-weight: bolder;
 	text-transform: uppercase;
 	padding-top: 20px;
-	margin-left: 250px;
 	font-size: 20px;
 	font-family: 900;
 }
 
 .myClass{
+	text-align: center;
 	padding-bottom: 20px;
-	margin-left: 20px;
-	margin-top: 50px;
-	width: 50%;
 	background-color: #f2f2f2;
 	border-style: 1px solid;
     border-radius: 30px;
@@ -51,7 +58,7 @@ a {
 	font-size: 20px;
 }
 input[type=name], select, textarea {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -63,7 +70,7 @@ input[type=name], select, textarea {
 }
 
 input[type=phone], select, textarea {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -74,7 +81,7 @@ input[type=phone], select, textarea {
     resize: vertical;
 }
 input[type=email], select, textarea {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -88,11 +95,16 @@ input[type=email], select, textarea {
 
 input[type=submit] {
 	text-transform: uppercase;
-	margin-left: 280px;
+/*	margin-left: 280px;*/
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+footer{
+	margin-top: 50px;
+	color: white;
+	background-color: black;
 }
