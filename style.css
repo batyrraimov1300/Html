@@ -62,7 +62,7 @@ main{
 
 .someImg{
 	margin: 0 auto;
-  	width:1230px;
+  	width:1220px;
 	display: flex;
 }
 .img{
@@ -70,7 +70,8 @@ main{
 }
 
 figcaption {
-	margin-top: 10px;
+	padding-bottom: 100px;
+/*	margin-top: 10px;*/
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
@@ -162,19 +163,24 @@ input[type=submit] {
 }
 
 footer{
-	padding-left: 20px;
+	width: 94%;
+	bottom: 0;
+	position: fixed;
 	color: white;
-	border-radius: 5px;
-	background-color: rgba(0, 120, 201, 0.7);
-	margin-left: 70px;
-	margin-right:70px;
-	margin-top: 30px;
-	display: flex;
 }
 
+.footer{
+    border-radius: 20px 20px 0 0;
+	background-color: rgba(0, 120, 201, 0.5);
+	margin-left: 70px;
+	display: flex;
+   }
+
 ul {
+	text-align: center;
     list-style-type: square;
 }
 ol {
-    list-style-type: upper-roman;
+	padding-left: 540px;
+    list-style-type: square;
 }
