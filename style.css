@@ -1,55 +1,113 @@
-body{
-	font-family: "Times New Roman", Times, serif;
-	font-style: Bold;
-}
 a {
 	text-decoration: none;
   }
 
-header{
-	font-family: monospace;
-	max-height: 100px;
-	padding: 30px;
-	background-color: green;
+@font-face {
+	font-family: Code Next; 
+	src:url(fonts/CodeNext.ttf); 
 }
 
-.header{
-	padding-left: 20px;
-	color: white;
-	font-weight: bolder;
-	text-transform: uppercase;
+.logo{
+	text-align: left;
+	font-family: 'Code Next';
+	color: blue;
 	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
+header{
+	text-align: right;
+	background-color: rgba(255,255,255,0.8);
+	position: fixed;
+	margin-right: 70px;
+	margin-left: 70px;
+	border-radius: 10px;
+	padding: 20px;
+}
 
-.list{
-	padding-left: 20px;
+.btn1{
+	padding: 10px;
+	margin-left: 870px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: #ebeefa;
+	background: #2ea664;}
+
+.btn2{
+	border-radius: 10px;
+	color: #ebeefa;
+	background: #2ea664;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+body{
+ 	font-family: 'Code Next';
+ }
+
+main{
+	padding: 20px;
+	background-size: 100%;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: center;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	background-image: url("img.jpg");
+}
+
+.someImg{
+	margin: 0 auto;
+  	width:1230px;
 	display: flex;
 }
-
-
-.textInput{
-	text-transform: uppercase;
-	font-style: bold;
-	margin-right: 950px;
-	font-family: monospace;
+.img{
+	border-radius: 20px;
 }
 
-.title_form{
-	font-family: monospace;
-	font-weight: bolder;
-	text-transform: uppercase;
-	padding-top: 20px;
+figcaption {
+	margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.name{
 	font-size: 20px;
-	font-family: 900;
+	color: white;
+	margin-right: 390px;
+}
+
+.phone{
+	font-size: 20px;
+	color: white;
+	margin-right: 365px;
+}
+.email{
+	font-size: 20px;
+	color: white;
+	margin-right: 375px;
+}
+
+
+.title_form{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
 }
 
 .myClass{
-	text-align: center;
-	padding-bottom: 20px;
-	background-color: #f2f2f2;
-	border-style: 1px solid;
-    border-radius: 30px;
+	margin: 0 auto;
+  	width: 200px;
+	padding: 20px;
+	width: 50%;
+	background-color: rgba(0, 120, 201, 0.7);
+    border-radius: 20px;
     border-color: black;
 }
 
@@ -57,8 +115,8 @@ header{
 	text-align: center;
 	font-size: 20px;
 }
+
 input[type=name], select, textarea {
-	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -70,7 +128,6 @@ input[type=name], select, textarea {
 }
 
 input[type=phone], select, textarea {
-	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -81,7 +138,6 @@ input[type=phone], select, textarea {
     resize: vertical;
 }
 input[type=email], select, textarea {
-	/*margin-left: 100px;*/
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -92,19 +148,33 @@ input[type=email], select, textarea {
     resize: vertical;
 }
 
-
 input[type=submit] {
+
+	font-size: 20px;
+	font-family: Code Next;
 	text-transform: uppercase;
-/*	margin-left: 280px;*/
-    background-color: #4CAF50;
-    color: white;
+	color: #ebeefa;
+	background: #2ea664;
     padding: 12px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
+
 footer{
-	margin-top: 50px;
+	padding-left: 20px;
 	color: white;
-	background-color: black;
+	border-radius: 5px;
+	background-color: rgba(0, 120, 201, 0.7);
+	margin-left: 70px;
+	margin-right:70px;
+	margin-top: 30px;
+	display: flex;
+}
+
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: upper-roman;
 }
